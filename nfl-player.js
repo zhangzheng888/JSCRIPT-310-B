@@ -1,15 +1,17 @@
 class Player {
-    constructor(type){
-        this.type = type;
+    constructor(league){
+        this.league = league;
     }
 }
 
 class NFLPlayer extends Player {
-    constructor(type, playerID, playerName, playerAge, playerYOE) {
-        super(type);
+    constructor(league, playerID, playerName, playerAge, playerHeight, playerWeight, playerYOE) {
+        super(league);
         this.playerID = playerID;
         this.playerName = playerName;
         this.playerAge = playerAge;
+        this.playerHeight = playerHeight;
+        this.playerWeight = playerWeight;
         this.playerYOE = playerYOE;
     }
 

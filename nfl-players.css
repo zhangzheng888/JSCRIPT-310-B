@@ -1,0 +1,41 @@
+/* Adjust the button width */
+.btn-custom-width {
+  width: 150px;
+}
+
+/* Adjust the spacing between Submit and Clear button */
+#submit {
+  margin-bottom: 6px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin-top: 16px;
+    background-color: #fff;
+}
+.card img {
+    border-radius: 4px;
+    max-width: 100%;
+}
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+}
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+.error-image {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px; /* Space between image and text */
+}

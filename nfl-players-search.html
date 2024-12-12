@@ -8,7 +8,7 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <!-- <link rel="stylesheet" href="best-books.css"> -->
+    <link rel="stylesheet" href="nfl-players.css">
   </head>
   <body>
     <div class="container">
@@ -19,7 +19,7 @@
               src="https://upload.wikimedia.org/wikipedia/en/a/a2/National_Football_League_logo.svg"
               alt="NFL Logo"
               style="width: 50px; height: auto; margin-right: 10px"
-            />NFL Players Search
+            /> Players Search
           </h1>
         </div>
       </div>
@@ -34,15 +34,23 @@
                 class="form-control"
                 type="text"
                 placeholder="Patrick Mahomes"
-                pattern="[A-Za-z\s]+"
+                pattern="[A-Za-z0-9.\-\s]+"
+                minlength="4"
+                title="Player name can include letters, hyphens, periods, and spaces."
               />
             </div>
             <div class="form-group mb-2">
               <input
                 id="submit"
-                class="btn btn-primary"
+                class="btn btn-primary btn-custom-width mr-2"
                 type="submit"
                 value="Find Player"
+              />
+              <input
+                id="clear"
+                class="btn btn-secondary btn-custom-width"
+                type="button"
+                value="Clear Player"
               />
             </div>
           </form>
