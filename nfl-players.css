@@ -3,10 +3,6 @@
   width: 150px;
 }
 
-/* Adjust the spacing between Submit and Clear button */
-#submit {
-  margin-bottom: 6px;
-}
 
 .card {
     border: 1px solid #ddd;
@@ -38,4 +34,21 @@
     display: flex;
     justify-content: center;
     margin-bottom: 16px; /* Space between image and text */
+}
+
+/* Styles for the status circles */
+.status-circle {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.status-active {
+    background-color: green;
+}
+
+.status-inactive {
+    background-color: red;
 }
